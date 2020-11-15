@@ -5,7 +5,7 @@ We'll be using historical data on the price of the S&P500 Index
 to make predictions about future prices. Predicting whether an index will go 
 up or down will help us forecast how the stock market as a whole will perform.
 
-In this mission, we'll be working with a csv file containing index prices. 
+We'll be working with a csv file containing index prices. 
 Each row in the file contains a daily record of the price of the S&P500 Index 
 from 1950 to 2015. The dataset is stored in sphist.csv'''
 
