@@ -3,8 +3,8 @@ from datetime import datetime
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-##Reading in the data
-df = pd.read_csv('/Users/Luther/Desktop/data_analysis/Predicting_the_stock_market/sphist.csv')###
+"""Reading in the data"""
+df = pd.read_csv('sphist.csv')
 df['Date'] = pd.to_datetime(df['Date'])
 
 df.sort_values('Date', ascending = True, inplace = True)
